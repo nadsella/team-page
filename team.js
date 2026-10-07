@@ -1,4 +1,13 @@
 const TEAM = [
+  { name: "Helen Achterberg", role: "Co-founder & CEO", team: "Leadership", leader: true, img: "helen-achterberg", location: "London", joined: "2016",
+    bio: "Helen co-founded Northwind after a decade in product at large insurers. She sets direction, hires the leaders and still answers support emails on Fridays.", fun: "Restores old sailing boats.",
+    quote: "Build the thing you'd want to use, then make it simpler." },
+  { name: "Daniel Mensah", role: "Co-founder & CTO", team: "Leadership", leader: true, img: "daniel-mensah", location: "London", joined: "2016",
+    bio: "Daniel wrote the first version of the platform in a shared flat. Today he leads architecture, security and the engineering org.", fun: "Keeps bees on the office roof.",
+    quote: "Boring technology, exciting outcomes." },
+  { name: "Lena Park", role: "Chief Product Officer", team: "Leadership", leader: true, img: "lena-park", location: "Bristol", joined: "2020",
+    bio: "Lena joined from a consumer fintech to lead product, design and data. She owns the roadmap and our customer research practice.", fun: "Has visited 40 countries by train.",
+    quote: "Every decision starts with a real customer story." },
   { name: "Maya Okafor", role: "Head of Engineering", team: "Engineering", img: "maya-okafor", location: "London", joined: "2019",
     bio: "Maya keeps the platform fast and the on-call rota calm. Before Northwind she built payment systems for a fintech start-up.", fun: "Has run every London Marathon since 2016." },
   { name: "Tom Lindqvist", role: "Senior Product Designer", team: "Design", img: "tom-lindqvist", location: "Stockholm", joined: "2021",
