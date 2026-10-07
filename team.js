@@ -24,4 +24,10 @@ const TEAM = [
     bio: "Sofia writes the words you read in the app and keeps our tone warm and plain.", fun: "Has a cat called Semicolon." },
   { name: "Ravi Shah", role: "Data Analyst", team: "Product", img: "ravi-shah", location: "Birmingham", joined: "2021",
     bio: "Ravi finds the story in the numbers and builds the dashboards everyone checks on Monday.", fun: "Ranked top 500 in the UK at chess." },
+  { name: "Chloé Dubois", role: "Head of Marketing", team: "Marketing", img: "chloe-dubois", location: "Paris", joined: "2021",
+    bio: "Chloé leads brand and growth. She launched our first TV campaign and keeps every channel sounding like us.", fun: "Once won a regional croissant-baking contest." },
+  { name: "Marcus Reid", role: "Growth Marketing Manager", team: "Marketing", img: "marcus-reid", location: "Leeds", joined: "2022",
+    bio: "Marcus runs paid acquisition and experiments, and turns test results into next week's plan.", fun: "Plays bass in a ska covers band." },
+  { name: "Aisha Khan", role: "Social & Community Lead", team: "Marketing", img: "aisha-khan", location: "London", joined: "2023",
+    bio: "Aisha looks after our social channels and community, and is usually the first to spot what customers are talking about.", fun: "Has a houseplant collection of over 60 plants." },
 ];
