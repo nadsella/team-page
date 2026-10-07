@@ -23,17 +23,9 @@
 </header>
 
 <main>
-  <section class="leadership" aria-labelledby="leadership-title">
-    <div class="section-head">
-      <h2 id="leadership-title">Leadership</h2>
-      <p>The people setting direction and making sure we get there.</p>
-    </div>
-    <div class="leaders" id="leaders"></div>
-  </section>
-
   <div class="section-head">
     <h2>The team</h2>
-    <p>Click anyone to read more about them.</p>
+    <p>Click anyone to read more about them, or filter by team.</p>
   </div>
   <nav class="filters" aria-label="Filter by team" id="filters"></nav>
   <section class="grid" id="grid" aria-live="polite"></section>
@@ -48,6 +40,7 @@
       <h2 id="p-name"></h2>
       <p class="role" id="p-role"></p>
       <p id="p-bio"></p>
+      <blockquote id="p-quote" hidden></blockquote>
       <dl>
         <div><dt>Based in</dt><dd id="p-loc"></dd></div>
         <div><dt>Joined</dt><dd id="p-joined"></dd></div>
