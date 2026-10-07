@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meet the Team · Northwind Studio</title>
+<meta name="description" content="A demo team page with filterable profile cards.">
+<link rel="icon" href="images/maya-okafor.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <p class="eyebrow">Northwind Studio</p>
+  <h1>The people behind the product</h1>
+  <p class="lede">Eight humans across four teams and six cities, building things customers actually like using.</p>
+  <ul class="stats">
+    <li><strong id="stat-people">8</strong><span>people</span></li>
+    <li><strong>4</strong><span>teams</span></li>
+    <li><strong>6</strong><span>cities</span></li>
+  </ul>
+</header>
+
+<main>
+  <nav class="filters" aria-label="Filter by team" id="filters"></nav>
+  <section class="grid" id="grid" aria-live="polite"></section>
+</main>
+
+<dialog id="profile">
+  <button class="close" aria-label="Close" data-close>&times;</button>
+  <div class="profile-body">
+    <img id="p-img" alt="">
+    <div>
+      <p class="tag" id="p-team"></p>
+      <h2 id="p-name"></h2>
+      <p class="role" id="p-role"></p>
+      <p id="p-bio"></p>
+      <dl>
+        <div><dt>Based in</dt><dd id="p-loc"></dd></div>
+        <div><dt>Joined</dt><dd id="p-joined"></dd></div>
+      </dl>
+      <p class="fun"><span>Fun fact</span> <span id="p-fun"></span></p>
+    </div>
+  </div>
+</dialog>
+
+<footer>Demo team page · Fictional people, illustrated portraits · <a href="https://github.com/nadsella/team-page">Source</a></footer>
+
+<script src="team.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+const TEAM = [
+  { name: "Maya Okafor", role: "Head of Engineering", team: "Engineering", img: "maya-okafor", location: "London", joined: "2019",
+    bio: "Maya keeps the platform fast and the on-call rota calm. Before Northwind she built payment systems for a fintech start-up.", fun: "Has run every London Marathon since 2016." },
+  { name: "Tom Lindqvist", role: "Senior Product Designer", team: "Design", img: "tom-lindqvist", location: "Stockholm", joined: "2021",
+    bio: "Tom turns messy problems into clear flows. He leads our design system and runs the weekly crit.", fun: "Bakes a new kind of bread every Sunday." },
+  { name: "Priya Raman", role: "Product Manager", team: "Product", img: "priya-raman", location: "Manchester", joined: "2020",
+    bio: "Priya owns the onboarding journey and talks to at least three customers every week.", fun: "Plays tabla in a jazz-fusion band." },
+  { name: "Kenji Watanabe", role: "Staff Engineer", team: "Engineering", img: "kenji-watanabe", location: "Remote", joined: "2018",
+    bio: "Kenji designs the systems behind our quoting engine and mentors the backend guild.", fun: "Collects vintage mechanical keyboards." },
+  { name: "Amara Diallo", role: "Head of Operations", team: "Operations", img: "amara-diallo", location: "London", joined: "2017",
+    bio: "Amara makes sure every customer query gets a fast, human answer, and that the team behind them is supported.", fun: "Speaks five languages, learning a sixth." },
+  { name: "Oliver Grant", role: "iOS Engineer", team: "Engineering", img: "oliver-grant", location: "Edinburgh", joined: "2022",
+    bio: "Oliver crafts the details in our iOS app, from haptics to accessibility.", fun: "Wild-swims in the North Sea all year." },
+  { name: "Sofia Moreno", role: "Content Designer", team: "Design", img: "sofia-moreno", location: "Barcelona", joined: "2023",
+    bio: "Sofia writes the words you read in the app and keeps our tone warm and plain.", fun: "Has a cat called Semicolon." },
+  { name: "Ravi Shah", role: "Data Analyst", team: "Product", img: "ravi-shah", location: "Birmingham", joined: "2021",
+    bio: "Ravi finds the story in the numbers and builds the dashboards everyone checks on Monday.", fun: "Ranked top 500 in the UK at chess." },
+];
