@@ -20,7 +20,7 @@ function renderFilters() {
 function renderGrid() {
   const list = active === "All" ? PEOPLE : PEOPLE.filter(p => p.team === active);
   grid.innerHTML = list.map((p, i) => `
-    <button class="card${p.leader ? " is-leader" : ""}" data-i="${TEAM.indexOf(p)}" style="--d:${i * 50}ms">
+    <button class="card${p.leader ? " is-leader" : ""}" data-team="${p.team.toLowerCase()}" data-i="${TEAM.indexOf(p)}" style="--d:${i * 50}ms">
       <img src="images/${p.img}.svg" alt="Portrait of ${p.name}" loading="lazy" width="200" height="200">
       ${p.leader ? '<span class="badge">Leadership</span>' : `<span class="tag">${p.team}</span>`}
       <h3>${p.name}</h3>
